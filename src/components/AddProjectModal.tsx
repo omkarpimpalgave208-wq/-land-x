@@ -162,7 +162,7 @@ export const AddProjectModal: React.FC<AddProjectModalProps> = ({ isOpen, onClos
             <Cpu className="w-5 h-5 text-blue-400" />
             <div>
               <span className="text-[10px] font-mono font-bold text-blue-400 uppercase tracking-widest block">
-                KSHETRA AI PREDICTIVE ENGINE &bull; SIH26017
+                KSHETRA AI PREDICTIVE ENGINE &bull; 
               </span>
               <h2 className="text-sm sm:text-base font-bold font-mono text-white uppercase tracking-tight">
                 {step === 'input' ? 'Add New Project & Run Predictive Analysis' : step === 'analyzing' ? 'Analyzing Project Risk Parameters...' : 'Predictive Analysis Results'}
@@ -476,7 +476,7 @@ export const AddProjectModal: React.FC<AddProjectModalProps> = ({ isOpen, onClos
             <div className="w-12 h-12 border-3 border-blue-700 border-t-transparent rounded-full animate-spin" />
             <div className="text-center space-y-1 font-mono">
               <h3 className="font-bold text-slate-900 text-base">Running KSHETRA Predictive Risk Scoring Engine...</h3>
-              <p className="text-xs text-slate-500">Evaluating 14 land acquisition delay parameters against SIH26017 benchmarks</p>
+              <p className="text-xs text-slate-500">Evaluating 14 land acquisition delay parameters against  benchmarks</p>
             </div>
           </div>
         )}
